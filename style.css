@@ -13,6 +13,9 @@
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://c4.wallpaperflare.com/wallpaper/795/166/322/beautiful-dark-forest-nature-wallpaper-preview.jpg');   
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 i {
@@ -22,4 +25,27 @@ i {
 .form-box{
     width: 90%;
     max-width: 450px;
+    min-width: 350px;
+    background: white;
+    padding: 55px;
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow: -2px 2px 15px rgba(0,0,0,0.5);
+}
+
+.form-box h1{
+    font-size: 30px;
+    color: green;
+}
+
+.form-box .underline {
+    width: 30px;
+    height: 4px;
+    background: green;
+    margin: 10px auto 50px auto;
+    border-radius: 5px;
+}
+
+.input-field {
+    background: #eaeaea;
 }
