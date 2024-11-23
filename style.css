@@ -70,3 +70,16 @@ form p{
 
 }
 
+form p a {
+    text-decoration: none;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+}
