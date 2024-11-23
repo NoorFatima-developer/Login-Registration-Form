@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -11,5 +10,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-color: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4), url(https://static.vecteezy.com/system/resources/previews/040/890/255/non_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg));
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://c4.wallpaperflare.com/wallpaper/795/166/322/beautiful-dark-forest-nature-wallpaper-preview.jpg');   
+    background-position: center;
+    background-size: cover;
 }
