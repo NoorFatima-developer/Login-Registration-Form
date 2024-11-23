@@ -82,4 +82,12 @@ form p a {
 
 .btn-field button {
     flex-basis: 48%;
+    background: green;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+
 }
