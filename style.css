@@ -91,3 +91,11 @@ form p a {
     outline: 0;
     transition: background 1s;
 }
+
+.input-group {
+    height: 280px;
+}
+
+.button.disable {
+     background: #eaeaea;
+}
