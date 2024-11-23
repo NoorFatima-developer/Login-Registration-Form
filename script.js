@@ -7,6 +7,9 @@ let namefield = document.querySelector('.namefield');
 signinbtn.addEventListener('click', function(){
 
     namefield.parentElement.style.maxHeight = '0'
-    signinbtn.style.backgroundColor = "green";
     title.innerHTML = 'Sign In';
+    signupbtn.classList.add('disable');
+    signinbtn.classList.remove('disable');
+    underline.style.transform = 'translateX(35px)';
+
 });

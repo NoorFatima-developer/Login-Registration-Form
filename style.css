@@ -41,6 +41,7 @@
     background: green;
     margin: 10px auto 50px auto;
     border-radius: 5px;
+    transition: transform 0.5s;
 }
 
 .input-field {
