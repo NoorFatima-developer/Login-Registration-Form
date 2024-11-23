@@ -89,4 +89,5 @@ form p a {
     cursor: pointer;
     border: 0;
     outline: 0;
+    transition: background 1s;
 }
