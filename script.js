@@ -12,6 +12,7 @@ signinbtn.addEventListener('click', function(){
     signupbtn.classList.add('disable');
     signinbtn.classList.remove('disable');
     underline.style.transform = 'translateX(35px)';
+    text.innerHTML = 'Lost Password';
 
 });
 signupbtn.addEventListener('click', function(){
@@ -21,5 +22,5 @@ signupbtn.addEventListener('click', function(){
     signinbtn.classList.add('disable');
     signupbtn.classList.remove('disable');
     underline.style.transform = 'translateX(-35px)';
-
+    text.innerHTML = 'Password suggestions';
 });
