@@ -13,3 +13,12 @@ signinbtn.addEventListener('click', function(){
     underline.style.transform = 'translateX(35px)';
 
 });
+signupbtn.addEventListener('click', function(){
+
+    namefield.parentElement.style.maxHeight = '600px'
+    title.innerHTML = 'Sign Up';
+    signinbtn.classList.add('disable');
+    signupbtn.classList.remove('disable');
+    underline.style.transform = 'translateX(-35px)';
+
+});
