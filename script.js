@@ -3,6 +3,7 @@ let signinbtn = document.querySelector('.signinbtn');
 let title = document.querySelector('.title');
 let underline = document.querySelector('.underline');
 let namefield = document.querySelector('.namefield');
+let text = document.querySelector('.text');
 
 signinbtn.addEventListener('click', function(){
 
