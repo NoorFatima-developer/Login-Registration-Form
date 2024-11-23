@@ -96,6 +96,7 @@ form p a {
     height: 280px;
 }
 
-.button.disable {
+button.disable {
      background: #eaeaea;
+     color: #555;
 }
